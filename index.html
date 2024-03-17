@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/shahnaz.khan.77770?mibextid=ZbWKwL" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/shahnazkhan2011?igsh=MW9kbWUwMHAyZ3ppcA==" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="https://pin.it/7pRUmYmZM" class="w3-bar-item w3-button"><i class="fa fa-pinterest"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/shahnaz-khan-533bbb11a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>SHAHNAZ KHAN</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">my gallery</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="pic2.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-black" style="color: darkorange;">Creating </h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>Memories by clicks</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Follow me</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Some beautiful lines about my heart..</h3> <br>
+          <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+          <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+          <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+          <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+          <br>
+           
+        </div>
+
+        <div class="w3-justify">
+          <img style="width: 270px; height: 270px;" src="pic3.jpg"  alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>In the garden of my heart, blooms a flower divine,
+            A vision of beauty, my love, forever mine.
+            Her eyes like stars that light up the night,
+            Guiding me through darkness, with their radiant light.
+            
+            With every smile, she paints the sky in hues,
+            Her laughter, a melody, that gently soothes.
+            In her presence, all worries fade away,
+            Lost in her grace, I long to forever stay.
+            
+            Her touch, a gentle breeze upon my soul,
+            In her embrace, I find my heart made whole.
+            Her beauty, a masterpiece crafted by the divine,
+            A reflection of love, in every curve and line.
+            
+            She's the poetry etched in the stars above,
+            A symbol of grace, kindness, and love.
+            In her presence, I find solace and peace,
+            My beautiful girlfriend, my heart's masterpiece.
+            
+            Her essence, like a fragrant rose in bloom,
+            Filling my world with joy, banishing gloom.
+            In her eyes, I see the promise of tomorrow,
+            With her by my side, I'll weather any sorrow.
+            
+            For she's not just a girl, but a dream come true,
+            A love so pure, so tender, so true.
+            In every heartbeat, in every breath I take,
+            Her love surrounds me, like a warm embrace.
+            
+            So here's to my beautiful girlfriend, my guiding star,
+            In her love, I find my refuge, near and far.
+            Forever and always, my heart will be true,
+            For my love for her, endlessly renews.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/pic3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3></h3>
+          <h5>
+            "Her beauty isn't just skin deep; it's a reflection of the kindness and warmth within her soul."
+        </div>
+
+        <div class="w3-justify">
+          <img style="width: 270px;" height="270px;>
+          " src="pic10.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          
+          <p>Title: Embracing the Radiance: A Celebration of Your Beauty
+
+            In a world often fixated on outward appearances, it's important to pause and recognize the profound beauty that lies within each individual. My beloved girlfriend, your allure transcends the superficial; it emanates from the depths of your soul and radiates outward, captivating all who have the privilege to behold it.
+            
+            From the moment I first laid eyes on you, I was entranced by your ethereal presence. Your smile, like the first rays of dawn, has the power to illuminate even the darkest of days. It speaks volumes of the joy that resides within you, a joy that is infectious and uplifting to all fortunate enough to bask in its glow.
+            
+            But it's not just your smile that captivates me; it's the way your eyes sparkle with warmth and sincerity, revealing the depth of your compassion and empathy. They say the eyes are the windows to the soul, and in yours, I see a universe of beauty, grace, and resilience.
+            
+            Your beauty isn't confined to the physical; it transcends societal standards and embraces authenticity in its purest form. It's in the way you carry yourself with grace and confidence, unapologetically embracing every facet of your being. Whether adorned in glamorous attire or clad in simplicity, your beauty shines through, a testament to your inner strength and self-assurance.
+            
+            But perhaps what makes your beauty truly exceptional is the love and kindness that radiate from your heart. It's in the gentle touch of your hand, the reassuring embrace of your arms, and the unwavering support you offer without hesitation. Your beauty is not just seen but felt, leaving an indelible imprint on the lives of those you touch.
+            
+            As I pen these words, I am reminded once again of how blessed I am to have you in my life. Your beauty, both inside and out, is a beacon of light in a world often shrouded in darkness. And for that, my dear girlfriend, I am eternally grateful.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="pic3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>shahnaz<span class="w3-opacity w3-medium"></span></h4>
+                <p>very nice pic...</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="pic3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>shahnaz<span class="w3-opacity w3-medium"></span></h4>
+                <p>Love <h2>&#128512;</h2><h2>&#128512;</h2><h2>&#128512;</h2><h2>&#128512;</h2></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>INSTGRAM POST..</h3><i class="fa fa-instagram" style="font-size:48px;color:black"></i>
+        
+        </div>
+
+        <div class="w3-justify">
+          <img src="pic9.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Follow for more post!</strong> </p>
+          <p>"In her, beauty finds its truest form—a captivating blend of grace, kindness, and inner radiance. With each smile, she paints the world with joy, illuminating even the darkest corners with her warmth. My beautiful girlfriend, an embodiment of love's purest essence, forever cherished in my heart."</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="pic15.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>sumit mishra<span class="w3-opacity w3-medium"></span></h4>
+                <p>wow moti ...</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="pic15.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>sumit mishra<span class="w3-opacity w3-medium"></span></h4>
+                <p>bohot achhi lg rhi ho <h2>&#128512; </p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="pic15.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>sumit mishra <span class="w3-opacity w3-medium"></span></h4>
+                <p>Wonderfull moti</p>!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="pic1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container w3-black">
+          <h4>Join my blog..</h4>
+          <p>"Welcome to Shahnaz Khan's captivating blog, where stories come alive and inspiration knows no bounds. Join Shahnaz on a journey of discovery, as she shares her adventures, musings, and insights. From travel tales to reflections on life, delve into a world of wonder and wisdom with Shahnaz Khan."</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Posts</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="pic1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Like , share & follow..</span>
+            <br>
+            <span>#shahnazkhan2011</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="pic2.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Like, share & follow..</span>
+            <br>
+            <span>#shahnazkhan2011</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="pic3.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Like, share & follow..</span>
+            <br>
+            <span>#shahnazkhan2011</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="pic11.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px" height="55px">
+            <span class="w3-large">Like, share & follow</span>
+            <br>
+            <span>#shahnazkhan2011</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">join our community...</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">cuteness</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">nomakeup</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">beauty</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">love</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">looks</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">trending</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">lifestyle</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">explorepage</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">mini vlog</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">vibes</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+ 
+  <div class="w3-white w3-margin">
+    <div class="w3-container w3-padding w3-black">
+      <h4>Follow Me</h4>
+    </div>
+    <div class="w3-container w3-xlarge w3-padding">
+        <a href="https://www.facebook.com/shahnaz.khan.77770?mibextid=ZbWKwL" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/shahnazkhan2011?igsh=MW9kbWUwMHAyZ3ppcA==" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+        <a href="https://pin.it/7pRUmYmZM" class="w3-bar-item w3-button"><i class="fa fa-pinterest"></i></a>
+        <a href="https://www.linkedin.com/in/shahnaz-khan-533bbb11a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Subscribe -->
+  <div class="w3-white w3-margin">
+    <div class="w3-container w3-padding w3-black">
+      <h4>Subscribe</h4>
+    </div>
+    <div class="w3-container w3-white">
+      <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+      <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+    </div>
+  </div>
+
+<!-- END About/Intro Menu -->
+</div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+<div class="w3-modal-content" style="padding:32px">
+<div class="w3-container w3-white">
+  <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+  <h2 class="w3-wide">SUBSCRIBE</h2>
+  <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+  <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+  <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-white" style="padding:32px">
+<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">@sumitmishra</a></p>
+</footer>
+<script>
+    // Toggle between hiding and showing blog replies/comments
+    document.getElementById("myBtn").click();
+    function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    } else { 
+    x.className = x.className.replace(" w3-show", "");
+    }
+    }
+    
+    function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+    }
+
+</script>
+
+</body>
+</html>
